@@ -1,7 +1,7 @@
 {
   "name": "fe23-advanced-js-hw03",
   "version": "1.1.0",
-  "description": "Template project",
+  "description": "HW3 Destructuring",
   "main": "scripts/script.js",
   "scripts": {
     "test": "echo \"No test specified.\" && exit 1",
@@ -17,6 +17,7 @@
   "devDependencies": {
     "browser-sync": "^2.29.3",
     "gulp": "^4.0.2",
+    "sass": "^1.69.4",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-clean-css": "^4.3.0",
