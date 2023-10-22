@@ -25,10 +25,10 @@ const js = () => {
 		.pipe(concat('script.js'))						// concatenate them into one file
 		.pipe(minify({									// minify the result
 			ext:{
-				// src:'.js',								// full-size file naming
+				src:'.js',								// full-size file naming
 				min:'.min.js'							// minified file naming
 		},
-		noSource: true									// "true" means "don't output source files in the destination folder"
+		noSource: false									// "true" means "don't output source files in the destination folder"
 		}))
 		.pipe(gulp.dest('./dist/scripts'))              // put .js and .min.js into the destination folder
 	;
